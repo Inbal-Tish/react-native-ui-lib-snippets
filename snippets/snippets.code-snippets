@@ -1,0 +1,248 @@
+{
+  "RadioGroup": {
+    "prefix": "radioGroup",
+    "description": "Wrap a group of Radio Buttons to automatically control their selection"
+  },
+  "SectionsWheelPicker": {
+    "prefix": "sectionsWheelPicker",
+    "description": "SectionsWheelPicker component for presenting set of WheelPickers"
+  },
+  "Hint": {
+    "prefix": "hint",
+    "description": "Hint component for displaying a tooltip over wrapped component"
+  },
+  "FeatureHighlight": {
+    "prefix": "featureHighlight",
+    "description": "Component for feature discovery"
+  },
+  "Drawer": {
+    "prefix": "drawer",
+    "description": "Drawer Component",
+    "body": ["<Drawer $1>", " $2", "</Drawer>"]
+  },
+  "ActionSheet": {
+    "prefix": "actionSheet",
+    "description": "Cross platform Action Sheet, with a support for native iOS solutions"
+  },
+  "Card.Image": {
+    "prefix": "card.Image",
+    "description": "Inner component for the Card component (better be a direct child)"
+  },
+  "Card.Section": {
+    "prefix": "card.Section",
+    "description": "Inner component for rendering content easily inside a Card component"
+  },
+  "Card": {
+    "prefix": "card",
+    "description": "Customizable card component that handles press events"
+  },
+  "RadioButton": {
+    "prefix": "radioButton",
+    "description": "A Radio Button component, should be wrapped with a RadioGroup"
+  },
+  "SkeletonView": {
+    "prefix": "skeletonView",
+    "description": "Allows showing a temporary skeleton view while your real view is loading"
+  },
+  "ConnectionStatusBar": {
+    "prefix": "connectionStatusBar",
+    "description": "Top bar to show a 'no internet' connection status"
+  },
+  "Picker.Item": {
+    "prefix": "picker.Item",
+    "description": "Picker.Item, for configuring the Picker's selectable options"
+  },
+  "Picker": {
+    "prefix": "picker",
+    "description": "Picker Component, support single or multiple selection, blurModel and native wheel picker"
+  },
+  "FloatingButton": {
+    "prefix": "floatingButton",
+    "description": "Hovering button with gradient background"
+  },
+  "MaskedInput": {
+    "prefix": "maskedInput",
+    "description": "Mask Input to create custom looking inputs with custom formats"
+  },
+  "Toast": {
+    "prefix": "toast",
+    "description": "A toast component for displaying non-disruptive messages to the user"
+  },
+  "Chip": { "prefix": "chip", "description": "Chip component" },
+  "Wizard.Step": {
+    "prefix": "wizard.Step",
+    "description": "A wizard presents a series of steps in  prescribed order. That the user needs to complete in order to accomplish a goal (e.g. purchase a product)"
+  },
+  "Wizard": {
+    "prefix": "wizard",
+    "description": "A wizard presents a series of steps in  prescribed order. That the user needs to complete in order to accomplish a goal (e.g. purchase a product)"
+  },
+  "ColorPalette": {
+    "prefix": "colorPalette",
+    "description": "A component for displaying a color palette"
+  },
+  "Checkbox": {
+    "prefix": "checkbox",
+    "description": "Checkbox component for toggling boolean value related to some context"
+  },
+  "TextField": {
+    "prefix": "textField",
+    "description": "An enhanced customizable TextField with validation support"
+  },
+  "Slider": { "prefix": "slider", "description": "A Slider component" },
+  "StackAggregator": {
+    "prefix": "stackAggregator",
+    "description": "Stack aggregator component"
+  },
+  "Stepper": { "prefix": "stepper", "description": "A stepper component" },
+  "ProgressiveImage": {
+    "prefix": "progressiveImage",
+    "description": "Image component that loads first a small thumbnail of the images, and fades-in the full-sized image with animation once it's loaded"
+  },
+  "ProgressBar": { "prefix": "progressBar", "description": "Progress bar" },
+  "Carousel": {
+    "prefix": "carousel",
+    "description": "Carousel for scrolling pages"
+  },
+  "Image": {
+    "prefix": "image",
+    "description": "Image wrapper with extra functionality like source transform and assets support"
+  },
+  "ListItem": {
+    "prefix": "listItem",
+    "description": "List item component to render inside a List component"
+  },
+  "ListItem.Part": {
+    "prefix": "listItem.Part",
+    "description": "A sub ListItem component for layout-ing inside a ListItem"
+  },
+  "Dialog": {
+    "prefix": "dialog",
+    "description": "Component for displaying custom content inside a popup dialog"
+  },
+  "GridView": {
+    "prefix": "gridView",
+    "description": "An auto-generated grid view that calculate item size according to given props"
+  },
+  "Button": {
+    "prefix": "button",
+    "description": "Customizable button component that handles press events"
+  },
+  "AnimatedScanner": {
+    "prefix": "animatedScanner",
+    "description": "description"
+  },
+  "AnimatedImage": {
+    "prefix": "animatedImage",
+    "description": "Image component that fades-in the image with animation once it's loaded"
+  },
+  "SegmentedControl": {
+    "prefix": "segmentedControl",
+    "description": "SegmentedControl component for toggling two values or more"
+  },
+  "ColorSwatch": {
+    "prefix": "colorSwatch",
+    "description": "A color swatch component"
+  },
+  "TouchableOpacity": {
+    "prefix": "touchableOpacity",
+    "description": "A wrapper for TouchableOpacity component. Support onPress, throttling and activeBackgroundColor"
+  },
+  "StateScreen": {
+    "prefix": "stateScreen",
+    "description": "Component that shows a full screen for a certain state, like an empty state"
+  },
+  "Avatar": {
+    "prefix": "avatar",
+    "description": "Avatar component for displaying user profile images"
+  },
+  "ColorPicker": {
+    "prefix": "colorPicker",
+    "description": "A picker component for color selection"
+  },
+  "Fader": {
+    "prefix": "fader",
+    "description": "A gradient fading overlay to render on top of overflowing content (like scroll component)"
+  },
+  "View": { "prefix": "view", "description": "An enhanced View component" },
+  "Switch": {
+    "prefix": "switch",
+    "description": "Switch component for toggling boolean value related to some context"
+  },
+  "DateTimePicker": {
+    "prefix": "dateTimePicker",
+    "description": "Date and Time Picker Component that wraps RNDateTimePicker for date and time modes. See: https://github.com/react-native-community/react-native-datetimepicker#react-native-datetimepicker"
+  },
+  "LoaderScreen": {
+    "prefix": "loaderScreen",
+    "description": "Component that shows a full screen with an activity indicator"
+  },
+  "ActionBar": {
+    "prefix": "actionBar",
+    "description": "Quick actions bar, each action support Button component props",
+    "body": [
+      "<ActionBar",
+      "  actions={[",
+      "    {label: $1, onPress: $2},",
+      "    {label: $3, onPress: $4},",
+      "    {label: $5, onPress: $6}",
+      "  ]}",
+      "/>"
+    ]
+  },
+  "Text": {
+    "prefix": "text",
+    "description": "A wrapper for Text component with extra functionality like modifiers support"
+  },
+  "Icon": { "prefix": "icon", "description": "Icon component" },
+  "ChipsInput": { "prefix": "chipsInput", "description": "A chips input" },
+  "Modal.TopBar": {
+    "prefix": "modal.TopBar",
+    "description": "Modal.TopBar, inner component for configuring the Modal component's title, buttons and statusBar"
+  },
+  "Modal": {
+    "prefix": "modal",
+    "description": "Component that present content on top of the invoking screen"
+  },
+  "ExpandableSection": {
+    "prefix": "expandableSection",
+    "description": "Component to render expanded section below or above the SectionHeader"
+  },
+  "GridListItem": {
+    "prefix": "gridListItem",
+    "description": "A single grid view/list item component"
+  },
+  "PageControl": {
+    "prefix": "pageControl",
+    "description": "Page indicator, typically used in paged scroll-views"
+  },
+  "Overlay": { "prefix": "overlay", "description": "Overlay view with types" },
+  "TabController.TabPage": {
+    "prefix": "tabController.TabPage",
+    "description": "TabController's TabPage component"
+  },
+  "TabController": {
+    "prefix": "tabController",
+    "description": "A performant solution for a tab controller with lazy load mechanism"
+  },
+  "TabController.TabBar": {
+    "prefix": "tabController.TabBar",
+    "description": "TabController's TabBar component"
+  },
+  "TabController.PageCarousel": {
+    "prefix": "tabController.PageCarousel",
+    "description": "TabController's PageCarousel component"
+  },
+  "TabController.TabBarItem": {
+    "prefix": "tabController.TabBarItem",
+    "description": "TabController's TabBarItem component"
+  },
+  "Badge": {
+    "prefix": "badge",
+    "description": "Round colored badge, typically used to show a number"
+  },
+  "WheelPicker": {
+    "prefix": "wheelPicker",
+    "description": "A customizable WheelPicker component"
+  }
+}
