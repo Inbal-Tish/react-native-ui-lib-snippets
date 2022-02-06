@@ -5,7 +5,7 @@
     "publisher": "Inbal Tish <inbaltish@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "https://github.com/inbaltish/rnuilibsnippets"
+        "url": "https://github.com/Inbal-Tish/react-native-ui-lib-snippets.git"
     },
     "icon": "images/icon.png",
     "version": "1.0.0",
