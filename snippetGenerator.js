@@ -21,5 +21,15 @@ if (components) {
 
     output[component.name] = object;
   });
+
+
+  output["UilibImport"] = {
+    "prefix": "uilib",
+    "description": "Import react-native-ui-lib",
+    "body": [
+      "import {$1} from 'react-native-ui-lib';"
+    ]
+  }
+  
   fs.writeFileSync(`snippets/snippets.code-snippets`, JSON.stringify(output));
 }
